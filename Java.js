@@ -1,11 +1,11 @@
 const home_result = document.querySelector("#home-result");
-const guest_result = document.querySelector("#guest-result");
+const away_result = document.querySelector("#away-result");
 const h1p = document.querySelector("#h1point");
 const h2p = document.querySelector("#h2point");
 const h3p = document.querySelector("#h3point");
-const g1p = document.querySelector("#g1point");
-const g2p = document.querySelector("#g2point");
-const g3p = document.querySelector("#g3point");
+const a1p = document.querySelector("#a1point");
+const a2p = document.querySelector("#a2point");
+const a3p = document.querySelector("#a3point");
 
 let homeCount = home_result.textContent;
 homeCount = Number(homeCount);
@@ -25,21 +25,20 @@ h3p.onclick = function () {
   home_result.textContent = homeCount;
 };
 
+let awayCount = home_result.textContent;
+awayCount = Number(awayCount);
 
-let guestCount = home_result.textContent;
-guestCount = Number(guestCount);
-
-g1p.onclick = function () {
-  guestCount++;
-  guest_result.textContent = guestCount;
+a1p.onclick = function () {
+  awayCount++;
+  away_result.textContent = awayCount;
 };
 
-g2p.onclick = function () {
-  answer = guestCount += 2;
-  guest_result.textContent = answer;
+a2p.onclick = function () {
+  answer = awayCount += 2;
+  away_result.textContent = answer;
 };
 
-g3p.onclick = function () {
-  answer = guestCount += 3;
-  guest_result.textContent = guestCount;
+a3p.onclick = function () {
+  answer = awayCount += 3;
+  away_result.textContent = awayCount;
 };

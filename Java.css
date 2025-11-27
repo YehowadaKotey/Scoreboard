@@ -282,15 +282,16 @@ body{
   font-size: 4rem;
 } */
 
-@font-face{
-  font-family: 'digital';
+@font-face {
+  font-family: "digital";
   src: url(fonts/digital-7.ttf);
 }
 
-@font-face{
-  font-family: 'helvetica';
+@font-face {
+  font-family: "helvetica";
   src: url(fonts/HelveticaNeue-Black.otf);
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -313,37 +314,36 @@ body {
   background: rgb(18, 11, 53);
   justify-content: center;
   justify-content: space-around;
-  padding: 1.5em 1.8em .5em 1.8em;
+  padding: 1.5em 1.8em 0.5em 1.8em;
   border-radius: 10px;
 }
 
 #home-title {
   color: white;
   font-weight: bolder;
-  font-family: 'helvetica';
+  font-family: "helvetica";
 }
-#guest-title {
+#away-title {
   color: white;
   font-weight: bolder;
-  font-family: 'helvetica';
+  font-family: "helvetica";
 }
 
-#guest-result {
+#away-result {
   font-size: 5rem;
   color: rgb(160, 35, 35);
   background: black;
-  margin: 0.1em 0 .2em 0;
+  margin: 0.1em 0 0.2em 0;
   padding: 0 30px 0 30px;
-  font-family: 'digital';
-
+  font-family: "digital";
 }
 #home-result {
   font-size: 5rem;
   color: rgb(173, 25, 25);
   background: black;
-  margin: 0.1em 0 .2em 0;
+  margin: 0.1em 0 0.2em 0;
   padding: 0 30px 0 30px;
-  font-family: 'digital';
+  font-family: "digital";
 }
 
 button {
@@ -357,7 +357,7 @@ button {
   border-radius: 5px;
 }
 
-button:hover{
-    color: rgb(82, 76, 76);
+button:hover {
+  color: rgb(82, 76, 76);
   border: 1px solid rgb(82, 76, 76);
 }
