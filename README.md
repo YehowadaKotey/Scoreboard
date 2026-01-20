@@ -1,4 +1,4 @@
-🏀 NBA Scoreboard
+🏀 NBA Scoreboard 2.0
 
 A simple and responsive NBA Scoreboard web application that displays live or mock NBA game scores in an easy-to-read format. Built to practice frontend development, API integration, and clean UI design.
 
